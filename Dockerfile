@@ -24,8 +24,6 @@ RUN  mvn eclipse:clean
 RUN  mvn eclipse:eclipse
 RUN mvn camel:run
 
-WORKDIR /local/git
-
 expose 8431
 # run terminal
 CMD ["/bin/bash"]
