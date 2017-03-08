@@ -24,6 +24,6 @@ RUN  mvn eclipse:clean
 RUN  mvn eclipse:eclipse
 RUN mvn camel:run
 
-expose 8431
+EXPOSE 8431
 # run terminal
 CMD ["/bin/bash"]
