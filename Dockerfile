@@ -26,4 +26,4 @@ RUN  mvn eclipse:eclipse
 
 EXPOSE 8431
 # run terminal
-CMD ["/bin/bash" , "mvn camel:run" ]
+ENTRYPOINT mvn camel:run
