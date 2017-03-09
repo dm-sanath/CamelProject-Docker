@@ -17,7 +17,7 @@ RUN mkdir -p /local/git
 
 #Copy the COde from git to DOcker
 RUN git clone https://github.com/dm-sanath/ServiceChannelWebService2.git
-WORKDIR /local/git/CamelProject
+WORKDIR /local/git/ServiceChannelWebService2
 
 RUN mvn clean install -DskipTests
 RUN  mvn eclipse:clean
