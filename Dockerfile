@@ -16,7 +16,7 @@ VOLUME /volume/git
 RUN mkdir -p /local/git
 
 #Copy the COde from git to DOcker
-RUN git clone https://github.com/pramod08/CamelProject.git /local/git/CamelProject
+RUN git clone https://github.com/dm-sanath/ServiceChannelWebService2.git
 WORKDIR /local/git/CamelProject
 
 RUN mvn clean install -DskipTests
