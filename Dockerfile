@@ -24,6 +24,6 @@ RUN mvn clean install -DskipTests
 #RUN  mvn eclipse:eclipse
 #RUN mvn camel:run
 
-EXPOSE 8431
+EXPOSE 8431 8080
 # run terminal
 ENTRYPOINT mvn hawtio:camel
