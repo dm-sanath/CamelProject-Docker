@@ -20,9 +20,8 @@ RUN git clone https://github.com/dm-sanath/ServiceChannelWebService2.git /local/
 WORKDIR /local/git/ServiceChannelWebService2
 
 RUN mvn clean install -DskipTests
-#RUN  mvn eclipse:clean
+#RUN  mvn eclipse:clean 
 #RUN  mvn eclipse:eclipse
-#RUN mvn camel:run
 
 EXPOSE 8431 8080
 # run terminal
