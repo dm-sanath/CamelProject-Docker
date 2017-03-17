@@ -22,7 +22,5 @@ WORKDIR /local/git/ServiceChannelWebService2
 RUN mvn clean install -DskipTests
 #RUN  mvn eclipse:clean 
 #RUN  mvn eclipse:eclipse
-
-EXPOSE 8431 8080
 # run terminal
 ENTRYPOINT mvn hawtio:camel
