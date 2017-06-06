@@ -1,5 +1,5 @@
 # pull base image.
-FROM wehdockerhubadmin/wehdockerhub:baseimage
+FROM ubuntu:14.04
 
 # maintainer details
 MAINTAINER Bizruntime
